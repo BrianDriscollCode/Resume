@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Driscoll - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active" onclick="showSection('home')">Home</a></li>
+                <li><a href="#about" onclick="showSection('about')">About</a></li>
+                <li><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#education" onclick="showSection('education')">Education</a></li>
+                <li><a href="#certifications" onclick="showSection('certifications')">Certifications</a></li>
+                <li><a href="#experience" onclick="showSection('experience')">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <h1>Brian Driscoll</h1>
+            <p>Software Engineer • Frontend / Backend</p>
+            <p>520-249-4853 | <a href="mailto:bdriscoll407@gmail.com">bdriscoll407@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/brianrdriscoll/" target="_blank">LinkedIn</a> | <a href="https://github.com/BrianDriscollCode" target="_blank">GitHub</a></p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>Professional Summary</h2>
+            <p>Sales and communication professional transitioning into the software engineering field. I am graduating soon with a bachelor’s degree in Software Engineering from Western Governors University. Completed projects including a Vue reference documentation site and an e-commerce platform, showcasing strong problem-solving abilities and a user-centric approach. Currently developing a full-stack test-making website to help students study for school. Looking to bring my combination of technical and communication skills to help development teams bring company applications to life faster.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Personal Projects</h2>
+            <div class="project">
+                <h3><a href="https://vuereference.com/" target="_blank">Vue Reference</a>Vue Reference</h3>
+                <p><strong>Technologies:</strong> Vue 3, Nuxt 3, JavaScript, GraphQL, Supabase, Netlify, Git</p>
+                <ul>
+                    <li>Created a reusable slug page with Nuxt 3’s content feature, optimizing the display of documentation using a single Vue file.</li>
+                    <li>Implemented email form validation and connected it to MailLite API, increasing newsletter sign-ups.</li>
+                    <li>Developed a search mechanism using Nuxt’s async and query features, enhancing content discoverability.</li>
+                    <li>Automated page navigation updates, improving user experience and content management.</li>
+                    <li>Built an authentication system using Supabase for signup, login, signout, and protected routes, with database triggers to create user-specific tables.</li>
+                    <li>Produced video tutorials for the Vue Reference YouTube channel, growing the channel to over 700 subscribers.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3><a href="https://title-boxing-store.vercel.app/#/" target="_blank">Boxing E-commerce Website</a></h3>
+                <p><strong>Technologies:</strong> React, Redux, SASS, AWS RDS, MySQL, Git</p>
+                <ul>
+                    <li>Created a login system with MySQL and AWS RDS, facilitating user account management and security.</li>
+                    <li>Streamlined product list creation using a mock database and Redux, improving efficiency.</li>
+                    <li>Developed a reusable component system for product pages, dynamically populating content based on URL and props.</li>
+                    <li>Implemented a flexible product filtering system, enhancing the user shopping experience.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3><a href="https://fitness-webkit.vercel.app/" target="_blank">Martial Arts Gym Website</a></h3>
+                <p><strong>Technologies:</strong> React, Redux, SASS, TypeScript, Git/GitHub, Axios</p>
+                <ul>
+                    <li>Developed an interactive banner with fade-in/out effects using React hooks and CSS, enhancing visual appeal.</li>
+                    <li>Implemented responsive design using set breakpoints, ensuring optimal user experience across devices.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <p><strong>Western Governors University</strong><br>Bachelor of Science - Software Engineering</p>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li><a href="https://www.credly.com/badges/7a90b340-13cb-430c-a1d6-703e1cdb09dd/public_url" target="_blank">AWS Cloud Practitioner</a></li>
+                <li><a href="https://badgr.com/public/assertions/wN8NkCzlS-6FAz0aB4fdBQ?identity__email=bdris16@wgu.edu" target="_blank">Front-End Developer Certificate - Western Governors University</a></li>
+                <li><a href="https://www.freecodecamp.org/certification/brian_driscoll/javascript-algorithms-and-data-structures" target="_blank">JavaScript Algorithms and Data Structures - FreeCodeCamp</a></li>
+                <li><a href="https://www.freecodecamp.org/certification/brian_driscoll/responsive-web-design" target="_blank">Responsive Web Design - FreeCodeCamp</a></li>
+            </ul>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Insurance Sales Agent - Geico</h3>
+                <p><strong>Apr 2023 - May 2024</strong></p>
+                <ul>
+                    <li>Ranked 4th out of 119 associates in 2023 and achieved stellar “additional products quoted” (APQ) results over 19 percent.</li>
+                    <li>Consistently finished 1st on my sales team and in the top 20 percent of all sales agents at Geico.</li>
+                    <li>Developed a customer-centric sales system, enhancing customer satisfaction and sales efficiency.</li>
+                    <li>Exceeded performance metrics to remain in the priority sales queue.</li>
+                    <li>Contributed to team success by mentoring peers and supporting their sales career growth.</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h3>Web Media Analyst - City of Sierra Vista</h3>
+                <p><strong>Aug 2019 - Jul 2021</strong></p>
+                <ul>
+                    <li>Updated the website navigation system, enhancing user experience and site responsiveness.</li>
+                    <li>Produced educational videos on recycling, praised by the city council, boosting community engagement and increasing our social following.</li>
+                    <li>Coordinated a city spotlight video, managing interviews and script development, resulting in positive feedback from the community including city council.</li>
+                    <li>Developed a Python automation tool, saving 4 hours of work weekly by automating social media updates.</li>
+                    <li>Led initiatives to improve website navigation and produce engaging content, increasing social media growth by 37 percent.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Brian Driscoll. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
